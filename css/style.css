@@ -1,0 +1,210 @@
+body {
+  overflow: hidden;
+}
+
+#mainlogo {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+#textlogo {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.footer {
+  display: table;
+  width: 100%;
+  height: 40px;
+  text-align: center;
+}
+
+#tagline {
+  font-family: 'Montserrat';
+  color: #D8D8D8;
+  text-align: center;
+  opacity: 0;
+  -webkit-animation: fadein 1.25s 3.575s forwards;
+  -moz-animation: fadein 1.25s 3.575s forwards;
+}
+
+#icons {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100px;
+  margin-top: 5000px;
+  -webkit-animation: slideup 1s 3.5s forwards;
+  -moz-animation: slideup 1s 3.5s forwards;
+}
+
+#icons img:hover {
+  -webkit-filter: brightness(90%) sepia(100) saturate(100) hue-rotate(345deg);
+  -moz-filter: brightness(90%) sepia(100) saturate(100) hue-rotate(345deg);
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  80% {
+    opacity: 50;
+  }
+  100% {
+    opacity: 80;
+  }
+}
+
+
+@media only screen and (max-width: 500px) {
+  /*Mobile*/
+  #mainlogo {
+    width: 60%;
+    padding-top: 7%;
+  }
+  #textlogo {
+    width: 80%;
+    padding-top: 10%;
+  }
+  #facebook {
+    width: 8.5%;
+    height: 8.5%;
+  }
+  #tagline {
+    font-size: 20px;
+    margin-top: 14%;
+  }
+  @-webkit-keyframes slideup {
+    100% {
+      margin-top: 15px;
+    }
+  }
+  #icons {
+  	width: 100%;
+  }
+  #soundcloudpic {
+    width: 12.5%;
+  }
+  #facebookpic {
+    width: 5%;
+    padding-left: 10%;
+  }
+  #websitepic {
+    width: 8.5%;
+    padding-left: 11%;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1190px) {
+  /*iPad, iPad Pro*/
+  #mainlogo {
+    width: 40%;
+    padding-top: 7.5%;
+  }
+  #textlogo {
+    width: 70%;
+    padding-top: 8%;
+  }
+  #tagline {
+    font-size: 35px;
+    margin-top: 10%;
+  }
+  @-webkit-keyframes slideup {
+    100% {
+      margin-top: 25px;
+    }
+  }
+  #icons {
+  	width: 80%;
+  }
+  #soundcloudpic {
+    width: 12%;
+  }
+  #facebookpic {
+    width: 5.5%;
+    padding-left: 14%;
+  }
+  #websitepic {
+    width: 8.5%;
+    padding-left: 16%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1490px) {
+  /*Default*/
+  #mainlogo {
+    width: 17.5%;
+    padding-top: 2%;
+  }
+  #textlogo {
+    width: 30%;
+    padding-top: 3%;
+  }
+  #tagline {
+    font-size: 22.5px;
+    margin-top: 4.225%;
+  }
+  @-webkit-keyframes slideup {
+    100% {
+      margin-top: 35px;
+    }
+  }
+
+  #icons {
+  	width: 42.5%;
+  }
+
+  #soundcloudpic {
+    width: 6%;
+  }
+
+  #facebookpic {
+    width: 3%;
+    padding-left: 10%;
+  }
+  #websitepic {
+    width: 4.5%;
+    padding-left: 11%;
+  }
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 3000px) {
+  /*Big screen*/
+  #mainlogo {
+    width: 16%;
+    padding-top: 2%;
+  }
+  #textlogo {
+    width: 27.5%;
+    padding-top: 3%;
+  }
+  #tagline {
+    font-size: 27.5px;
+    margin-top: 4.25%;
+  }
+  @-webkit-keyframes slideup {
+    100% {
+      margin-top: 40px;
+    }
+  }
+
+  #icons {
+  	width: 30%;
+  }
+
+  #soundcloudpic {
+    width: 9%;
+  }
+  #facebookpic {
+    width: 4%;
+    padding-left: 10%;
+  }
+  #websitepic {
+    width: 6%;
+    padding-left: 11%;
+  }
+}

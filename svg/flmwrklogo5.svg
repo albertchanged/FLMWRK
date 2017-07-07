@@ -1,0 +1,81 @@
+<svg version="1.1" id="logo"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" viewBox="0.5 0.501 498 96"
+	 overflow="visible" enable-background="new 0.5 0.501 498 96" xml:space="preserve">
+	<defs>
+		<style type="text/css">
+		.st0, .st1, .st2, .st3, .st4, .st5, .st6 {
+		  fill: black;
+		  stroke: black;
+		  stroke-width: 2;
+		  stroke-miterlimit: 5;
+		  transition: 1s;
+		  -webkit-animation: fillin0 1.5s 2.3s linear forwards;
+		  -moz-animation: fillin0 1.5s 2.3s linear forwards;
+		}
+
+		@-webkit-keyframes fillin0 {
+		  0% {
+		    fill: black;
+		  }
+		  80% {
+		    fill: #EB642F;
+		    stroke: #EB642F;
+		  }
+		  100% {
+		    fill: #EB642F;
+		    stroke: #EB642F;
+		  }
+		}
+
+		.st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17 {
+		  fill: black;
+		  stroke: black;
+		  stroke-width: 2;
+		  stroke-miterlimit: 5;
+		  transition: 1s;
+		  -webkit-animation: fillin1 2.5s 1.25s linear forwards;
+		  -moz-animation: fillin1 2.5s 1.25s linear forwards;
+		}
+
+		@-webkit-keyframes fillin1 {
+		  0% {
+		    fill: black;
+		  }
+		  70% {
+		    fill: black;
+		    stroke: black;
+		  }
+		  100% {
+		    fill: #FFE100;
+		    stroke: #FFE100;
+		  }
+		}
+		</style>
+	</defs>
+
+<polygon class="st11" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="377.427,20.574 420.716,20.574 420.716,0.501 355.322,0.501 
+	355.322,96.38 377.427,96.38 "/>
+<polygon class="st2" fill="none" stroke="#EB642F" stroke-miterlimit="10" points="100.627,75.095 142.529,75.095 142.529,96.38 77.132,96.38 
+	77.132,0.501 100.627,0.501 "/>
+<polygon class="st0" fill="none" stroke="#EB642F" stroke-miterlimit="10" points="23.477,21.188 70.493,21.14 70.493,0.513 0.5,0.513 
+	0.5,96.39 23.477,96.39 "/>
+<rect class="st1" x="0.5" y="38.527" fill="none" stroke="#EB642F" stroke-miterlimit="10" width="60.433" height="20.615"/>
+<rect class="st15" x="426.857" y="0.501" fill="none" stroke="#FFE100" stroke-miterlimit="10" width="21.494" height="95.879"/>
+<polygon class="st16" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="438.98,48.345 474.414,0.501 498.703,0.501 463.74,48.343 "/>
+<polygon class="st17" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="438.98,48.345 474.414,96.38 498.703,96.38 463.74,48.343 "/>
+<polygon class="st3" fill="none" stroke="#EB642F" stroke-miterlimit="10" points="170.945,96.38 170.945,0.501 148.84,0.573 148.84,96.38 "/>
+<polygon class="st4" fill="none" stroke="#EB642F" stroke-miterlimit="10" points="172.639,0.501 213.755,96.38 189.78,96.38 148.84,0.573 "/>
+<rect class="st5" x="193.561" y="0.501" fill="none" stroke="#EB642F" stroke-miterlimit="10" width="20.675" height="95.879"/>
+<polygon class="st6" fill="none" stroke="#EB642F" stroke-miterlimit="10" points="193.561,0.501 241.869,96.38 267.931,96.38 219.665,0.501 "/>
+<polygon class="st10" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="326.902,0.501 326.902,96.38 349.011,96.308 349.011,0.501 
+	"/>
+<polygon class="st9" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="325.21,96.38 284.095,0.501 308.07,0.501 349.011,96.308 "/>
+<rect class="st8" x="283.613" y="0.501" fill="none" stroke="#FFE100" stroke-miterlimit="10" width="20.676" height="95.879"/>
+<polygon class="st7" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="304.289,96.38 255.98,0.501 229.918,0.501 278.185,96.38 "/>
+<rect class="st12" x="400.042" y="0.501" fill="none" stroke="#FFE100" stroke-miterlimit="10" width="20.674" height="55.202"/>
+<polygon class="st13" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="355.322,35.085 420.716,35.085 420.474,55.703 
+	355.322,55.703 "/>
+<polygon class="st14" fill="none" stroke="#FFE100" stroke-miterlimit="10" points="370.97,55.703 396.283,96.38 420.716,96.38 395.398,55.703 
+	"/>
+</svg>
