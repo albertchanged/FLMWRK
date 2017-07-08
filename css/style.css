@@ -63,7 +63,7 @@ body {
 @media only screen and (max-width: 500px) {
   /*Mobile*/
   #mainlogo {
-    width: 55%;
+    width: 50%;
     padding-top: 5%;
   }
   #textlogo {
@@ -75,12 +75,12 @@ body {
     height: 8.5%;
   }
   #tagline {
-    font-size: 20px;
-    margin-top: 12%;
+    font-size: 17.5px;
+    margin-top: 10%;
   }
   @-webkit-keyframes slideup {
     100% {
-      margin-top: 10px;
+      margin-top: 5px;
     }
   }
   #icons {
