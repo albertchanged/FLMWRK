@@ -76,11 +76,11 @@ body {
   }
   #tagline {
     font-size: 17.5px;
-    margin-top: 10%;
+    margin-top: 12%;
   }
   @-webkit-keyframes slideup {
     100% {
-      margin-top: 5px;
+      margin-top: 12px;
     }
   }
   #icons {
