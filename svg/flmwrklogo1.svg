@@ -12,9 +12,9 @@
 		  stroke-miterlimit: 5;
 		  stroke-dasharray: 1300;
 		  stroke-dashoffset: 0;
-		  -webkit-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
-		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
-		  animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
+		  -webkit-animation: fillin0 2.5s linear forwards, flame1 1.1s 3.45s infinite;
+		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 3.45s infinite;
+		  animation: fillin0 2.5s linear forwards, flame1 1.1s 3.45s infinite;
 		}
 
 		.st2, .st5, .st6, .st9 {
@@ -77,9 +77,9 @@
 		  stroke-miterlimit: 5;
 		  stroke-dasharray: 1300;
 		  stroke-dashoffset: 0;
-		  -webkit-animation: fillin1 3.45s linear forwards, flame2 1.1s 4.1s infinite;
-		  -moz-animation: fillin1 3.45s linear forwards, flame2 1.1s 4.1s infinite;
-		  animation: fillin1 3.45s linear forwards, flame2 1.1s 4.1s infinite;
+		  -webkit-animation: fillin1 3.45s linear forwards, flame2 1.1s 3.2s infinite;
+		  -moz-animation: fillin1 3.45s linear forwards, flame2 1.1s 3.2s infinite;
+		  animation: fillin1 3.45s linear forwards, flame2 1.1s 3.2s infinite;
 		}
 
 		.st3, .st4, .st7, .st8 {
