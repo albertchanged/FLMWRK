@@ -14,6 +14,7 @@
 		  stroke-dashoffset: 0;
 		  -webkit-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
 		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
+		  animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
 		}
 
 		.st2, .st5, .st6, .st9 {
@@ -25,9 +26,30 @@
 		  stroke-dashoffset: 0;
 		  -webkit-animation: fillin0 2.5s linear forwards;
 		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
+		  animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
 		}
 
 		@-webkit-keyframes fillin0 {
+		  0% {
+		    fill: black;
+		    stroke-dashoffset: 1300;
+		  }
+		  45% {
+		    fill: black;
+		    stroke-dashoffset: 0;
+		  }
+		  65% {
+		    fill: #EB642F;
+		    stroke-dashoffset: 0;
+		    stroke-width: 1;
+		  }
+		  100% {
+		    fill: #EB642F;
+		    stroke-dashoffset: 0;
+		    stroke-width: 0;
+		  }
+		}
+		@keyframes fillin0 {
 		  0% {
 		    fill: black;
 		    stroke-dashoffset: 1300;
@@ -57,6 +79,7 @@
 		  stroke-dashoffset: 0;
 		  -webkit-animation: fillin1 3.45s linear forwards, flame2 1.1s 4.1s infinite;
 		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
+		  animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
 		}
 
 		.st3, .st4, .st7, .st8 {
@@ -68,9 +91,30 @@
 		  stroke-dashoffset: 0;
 		  -webkit-animation: fillin1 3.45s linear forwards;
 		  -moz-animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
+		  animation: fillin0 2.5s linear forwards, flame1 1.1s 4.35s infinite;
 		}
 
 		@-webkit-keyframes fillin1 {
+		  0% {
+		    fill: black;
+		    stroke-dashoffset: 1300;
+		  }
+		  50% {
+		    fill: black;
+		    stroke-dashoffset: 0;
+		  }
+		  65% {
+		    fill: #FFE100;
+		    stroke-width: 0;
+		    stroke-dashoffset: 0;
+		  }
+		  100% {
+		    fill: #FFE100;
+		    stroke-width: 0;
+		    stroke-dashoffset: 0;
+		  }
+		}
+		@keyframes fillin1 {
 		  0% {
 		    fill: black;
 		    stroke-dashoffset: 1300;
@@ -108,8 +152,42 @@
 		    stroke-width: 0;
 		  }
 		}
+		@keyframes flame1 {
+		  0% {
+		    fill: #EB642F;
+		    stroke: #FFE100;
+		    stroke-width: 0;
+		  }
+		  45% {
+		    fill: #EB642F;
+		    stroke: #FFE100;
+		    stroke-width: 0;
+		  }
+		  100% {
+		    fill: black;
+		    stroke: #FFE100;
+		    stroke-width: 0;
+		  }
+		}
 
 		@-webkit-keyframes flame2 {
+		  0% {
+		    fill: #FFE100;
+		    stroke-width: 0;
+		    stroke: #FFE100;
+		  }
+		  80% {
+		    fill: #FFE100;
+		    stroke: #FFE100;
+		    stroke-width: 0;
+		  }
+		  100% {
+		    fill: black;
+		    stroke: #FFE100;
+		    stroke-width: 0;
+		  }
+		}
+		@keyframes flame2 {
 		  0% {
 		    fill: #FFE100;
 		    stroke-width: 0;

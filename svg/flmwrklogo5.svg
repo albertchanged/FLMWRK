@@ -12,6 +12,7 @@
 		  transition: 1s;
 		  -webkit-animation: fillin0 1.5s 2.3s linear forwards;
 		  -moz-animation: fillin0 1.5s 2.3s linear forwards;
+		  animation: fillin0 1.5s 2.3s linear forwards;
 		}
 
 		@-webkit-keyframes fillin0 {
@@ -27,6 +28,20 @@
 		    stroke: #EB642F;
 		  }
 		}
+		@keyframes fillin0 {
+		  0% {
+		    fill: black;
+		  }
+		  80% {
+		    fill: #EB642F;
+		    stroke: #EB642F;
+		  }
+		  100% {
+		    fill: #EB642F;
+		    stroke: #EB642F;
+		  }
+		}
+
 
 		.st7, .st8, .st9, .st10, .st11, .st12, .st13, .st14, .st15, .st16, .st17 {
 		  fill: black;
@@ -36,9 +51,23 @@
 		  transition: 1s;
 		  -webkit-animation: fillin1 2.5s 1.25s linear forwards;
 		  -moz-animation: fillin1 2.5s 1.25s linear forwards;
+		  animation: fillin1 2.5s 1.25s linear forwards;
 		}
 
 		@-webkit-keyframes fillin1 {
+		  0% {
+		    fill: black;
+		  }
+		  70% {
+		    fill: black;
+		    stroke: black;
+		  }
+		  100% {
+		    fill: #FFE100;
+		    stroke: #FFE100;
+		  }
+		}
+		@keyframes fillin1 {
 		  0% {
 		    fill: black;
 		  }
