@@ -38,10 +38,6 @@ body {
   display: inline-block;
   vertical-align: middle;
   height: 100px;
-  /*margin-top: 5000px;*/
-/*  -webkit-animation: slideup 1s 3.5s forwards;
-  -moz-animation: slideup 1s 3.5s forwards;
-  animation: slideup 1s 3.5s forwards;*/
 }
 
 #icons img:hover {
@@ -93,16 +89,6 @@ body {
     font-size: 17.5px;
     margin-top: 12%;
   }
-/*  @-webkit-keyframes slideup {
-    100% {
-      margin-top: 12px;
-    }
-  }
-  @keyframes slideup {
-    100% {
-      margin-top: 12px;
-    }
-  }*/
   #icons {
   	padding-top: 2.5%;
   	width: 100%;
@@ -134,16 +120,6 @@ body {
     font-size: 35px;
     margin-top: 11%;
   }
-/*  @-webkit-keyframes slideup {
-    100% {
-      margin-top: 25px;
-    }
-  }
-  @keyframes slideup {
-    100% {
-      margin-top: 25px;
-    }
-  }*/
   #icons {
   	padding-top: 2.5%;
   	width: 80%;
@@ -175,17 +151,6 @@ body {
     font-size: 22.5px;
     margin-top: 4.6%;
   }
-  /*@-webkit-keyframes slideup {
-    100% {
-      margin-top: 35px;
-    }
-  }
-  @keyframes slideup {
-    100% {
-      margin-top: 30px;
-    }
-  }*/
-
   #icons {
   	padding-top: 2.25%;
   	width: 42.5%;
@@ -219,17 +184,6 @@ body {
     font-size: 27.5px;
     margin-top: 4.25%;
   }
-  /*@-webkit-keyframes slideup {
-    100% {
-      margin-top: 40px;
-    }
-  }
-  @keyframes slideup {
-    100% {
-      margin-top: 40px;
-    }
-  }
-*/
   #icons {
   	padding-top: 1.9%;
   	width: 30%;
